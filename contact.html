@@ -23,15 +23,18 @@ permalink: /contact/
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
+          
+          <form method="POST" action="https://formspree.io/support@zebratelecom.co.uk">
+            
+        
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+              <input type="text" class="form-control" name="name" placeholder="Your Name">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
+              <input type="text" class="form-control" name="_replyto" placeholder="Email Address">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
+              <input type="text" class="form-control" name="subject" placeholder="Subject">
             </div>
           </form>
         </div>
@@ -40,10 +43,12 @@ permalink: /contact/
         <div class="block">
           <form>
             <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+              <textarea class="form-control" rows="3" name="message" placeholder="Your Message"></textarea>
             </div>
             <button class="btn btn-default" type="submit">Send Message</button>
           </form>
+          
+          
         </div>
       </div>
     </div>
