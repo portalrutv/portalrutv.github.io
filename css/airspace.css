@@ -502,7 +502,7 @@ font header .navbar-default .navbar-nav li a:hover {
   color: #655E7A;
 }
 #portfolio-work .block .portfolio-contant ul img {
-  width: 100%;
+  width: 70%;
   height: auto;
 }
 #portfolio-work .block .portfolio-contant .overly {
@@ -511,7 +511,7 @@ font header .navbar-default .navbar-nav li a:hover {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.7);
   opacity: 0;
   -webkit-transition: .3s all;
   -o-transition: .3s all;
@@ -805,3 +805,32 @@ footer .footer-manu ul li a {
 footer .footer-manu ul li a:hover {
   color: #000;
 }
+
+
+
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.thumbnail:hover .caption {
+    top:0%;
+}
+
