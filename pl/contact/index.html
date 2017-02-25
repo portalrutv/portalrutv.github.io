@@ -63,18 +63,19 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="/">
               <img src="/img/logo.png" alt="Logo">
             </a>
           </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
+           
+           <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <li><a href="/">Home</a></li>
-                <li><a href="/faq">FAQ</a></li>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="#">Service</a></li>
-                <li><a href="/contact">Kontakt</a></li>
+                <li><a href="/pl/">Strona główna</a></li>
+                 <li><a href="/pl/work">Oglądanie</a></li>
+                <li><a href="/pl/faq">informacje/FAQ</a></li>
+                
+                <li><a href="/pl/contact">Kontakt</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
@@ -82,9 +83,8 @@
       </div>
     </div>
   </div>
+  
 </header><!-- header close -->
-
-
 
     <!-- Slider Start -->
 <section id="global-header">
@@ -93,139 +93,210 @@
       <div class="col-md-12">
         <div class="block">
           <h1>Kontakt</h1>
-          <p>Don’t just take our word for it. Check out some of our latest work.</p>
+         
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <!-- contact form start -->
 <section id="contact-form">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Your Name">
+       
+            
+            <link href="https://s3.amazonaws.com/agilecrm/forms/v1/agile-form-min.css" rel="stylesheet">
+<form class="form-view theme1" id="agile-form" action="https://portal.agilecrm.com/formsubmit" style="max-width:450px;" method="GET">
+<fieldset>
+
+<!-- Form Name -->
+<legend>Contact form</legend>
+<p class="agile-form-description"></p>
+<div style="display: none; height: 0px; width: 0px;">
+<input type="hidden" id="_agile_form_name" name="_agile_form_name" value="Contact form">
+<input type="hidden" id="_agile_domain" name="_agile_domain" value="portal">
+<input type="hidden" id="_agile_api" name="_agile_api" value="blsiq29hqbpr5c8vbiqk20pt7f">
+<input type="hidden" id="_agile_redirect_url" name="_agile_redirect_url" value="http://portalru.org/thanks.html">
+<input type="hidden" id="_agile_confirmation_msg" name="_agile_confirmation_msg" value="">
+<input type="hidden" id="_agile_form_id_tags" name="tags" value="portalru-contact">
+
+<input type="hidden" id="_agile_form_id" name="_agile_form_id" value="5719378301550592">
+</div>
+<!-- Text input-->
+<div class="agile-group required-control">
+  <label class="agile-label" for="agilefield-2">Your Name</label>
+  <div class="agile-field-xlarge agile-field">
+	<input maxlength="250" id="agilefield-2" name="first_name" type="text" placeholder="Enter name" class="agile-height-default" required="">
+  </div>
+  <div class="agile-custom-clear"></div>
+</div>
+<!-- Text input-->
+<div class="agile-group required-control">
+  <label class="agile-label" for="agilefield-6">Your Last Name</label>
+  <div class="agile-field-xlarge agile-field">
+	<input maxlength="250" id="agilefield-6" name="last_name" type="text" placeholder="Enter Surname" class="agile-height-default" required="">
+  </div>
+  <div class="agile-custom-clear"></div>
+</div>
+<!-- Text input-->
+<div class="agile-group">
+  <label class="agile-label" for="agilefield-1">Your Email</label>
+  <div class="agile-field-xlarge agile-field">
+	<input maxlength="250" id="agilefield-1" name="email" type="email" placeholder="Enter email" class="agile-height-default">
+  </div>
+  <div class="agile-custom-clear"></div>
+</div>
+<!-- Select Basic -->
+<div class="agile-group">
+  <label class="agile-label" for="agilefield-3">Country</label>
+  <div class="agile-field-xlarge agile-field">
+    <select id="agilefield-3" name="country" class="agile-height-default" required="">
+    	<option value="">Select</option>
+    	<option value="Australia">Australia</option>
+    	<option value="Austria">Austria</option>
+    	<option value="Canada">Canada</option>
+    	<option value="Denmark">Denmark</option>
+    	<option value="Estonia">Estonia</option>
+    	<option value="Finland">Finland</option>
+    	<option value="France">France</option>
+    	<option value="Germany">Germany</option>
+    	<option value="Ireland">Ireland</option>
+    	<option value="Israel">Israel</option>
+    	<option value="Italy">Italy</option>
+    	<option value="Latvia">Latvia</option>
+    	<option value="Lithuania">Lithuania</option>
+    	<option value="Norway">Norway</option>
+    	<option value="New Zealand">New Zealand</option>
+    	<option value="Portugal">Portugal</option>
+    	<option value="Russia">Russia</option>
+    	<option value="Spain">Spain</option>
+    	<option value="Sweden">Sweden</option>
+    	<option value="Switzerland">Switzerland</option>
+    	<option value="Turkey">Turkey</option>
+    	<option value="Ukraine">Ukraine</option>
+    	<option value="United Arab Emirates">United Arab Emirates</option>
+    	<option value="United Kingdom">United Kingdom</option>
+    	<option value="United States">United States</option>
+    </select>
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="agile-group required-control">
+  <label class="agile-label" for="agilefield-5">Text Area</label>
+  <div class="agile-field-xlarge agile-field">
+    <textarea maxlength="250" id="agilefield-5" name="note" placeholder="" required="" class="agile-height-default"></textarea>
+  </div>
+  <div class="agile-custom-clear"></div>
+</div>
+
+<!--recaptcha aglignment-->
+<!-- Button -->
+<div class="agile-group">
+  <label class="agile-label">&nbsp;</label>
+  <div class="agile-field">
+    <button type="submit" class="agile-button">Submit</button>
+    <br><span id="agile-error-msg"></span>
+ 
+
+</fieldset>
+</form>
+<script type="text/javascript">
+(function(a){var b=a.onload,p=false;isCaptcha=false;if(p){a.onload="function"!=typeof b?function(){try{_agile_load_form_fields()}catch(a){}}:function(){b();try{_agile_load_form_fields()}catch(a){}}};a.document.forms["agile-form"].onsubmit=function(a){a.preventDefault();try{_agile_synch_form_v4()}catch(b){this.submit()}}})(window);
+</script>
+            
             </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Email Address">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Subject">
-            </div>
-          </form>
-        </div>
-      </div>
+</div> 
+         
+        
+   
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
-            <div class="form-group-2">
-              <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
-            </div>
-            <button class="btn btn-default" type="submit">Send Message</button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <div id="contact-box" class="row">
-      <div class="col-md-6 col-sm-12">
-        <div class="block">
-          <h2>Stop By For A visit</h2>
+          <h2>Our offices</h2>
           <ul class="address-block">
             <li>
-              <i class="fa fa-map-marker"></i>North Main Street,Brooklyn Australia
+             <i class="fa fa-map-marker"></i> <p>Chrysler Building, 405 Lexington Ave</p> <p> New York, NY 10174, United States</p>
             </li>
-            <li>
-              <i class="fa fa-envelope-o"></i>Email: contact@mail.com
-            </li>
-            <li>
-              <i class="fa fa-phone"></i>Phone:+88 01672 506 744
-            </li>
+            
+           
           </ul>
-
+<hr>
           <ul class="social-icons">
             <li>
-              <a href="http://www.themefisher.com"><i class="fa fa-google"></i></a>
+              <a href="#"><i class="fa fa-google"></i></a>
+            </li>
+           
+            <li>
+              <a href="#"><i class="fa fa-pinterest"></i></a>
+            </li>
+            
+            <li>
+              <a href="#"><i class="fa fa-twitter"></i></a>
             </li>
             <li>
-              <a href="http://www.themefisher.com"><i class="fa fa-linkedin"></i></a>
-            </li>
-            <li>
-              <a href="http://www.themefisher.com"><i class="fa fa-pinterest"></i></a>
-            </li>
-            <li>
-              <a href="http://www.themefisher.com"><i class="fa fa-dribbble"></i></a>
-            </li>
-            <li>
-              <a href="http://www.themefisher.com"><i class="fa fa-behance"></i></a>
-            </li>
-            <li>
-              <a href="http://www.themefisher.com"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li>
-              <a href="http://www.themefisher.com"><i class="fa fa-facebook"></i></a>
+              <a href="#"><i class="fa fa-facebook"></i></a>
             </li>
           </ul>
         </div>
       </div>
+      
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <h2>We Also Count In Google Map</h2>
+          <hr>
+          <h2>Google Map</h2>
+          </br>
             <div class="google-map">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.472979439986!2d-73.97769068489596!3d40.7516207793276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590247c56379%3A0x15e13bea38b43e18!2sChrysler+Building!5e0!3m2!1sen!2sus!4v1477406538220" width="555" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
+            
+            <hr>
+    
         </div>
       </div>
     </div>
-  </div>
+    
+
 </section>
+
 <!-- Call to action Start -->
 <section id="call-to-action">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>We design delightful digital experiences.</h2>
-          <p>Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design.</p>
-          <a class="btn btn-default btn-call-to-action" href="#" >Tell Us Your Story</a>
+          <h2>Satysfakcja gwarantowana</h2>
+          <p></p>
+          <a class="btn btn-default btn-call-to-action" href="/pl/contact" >Skontaktuj się z nami</a>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-    <!-- footer Start -->
+   
+ <!-- footer Start -->
 <footer>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
         <div class="footer-manu">
           <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="/contact">Contact us</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="#">Terms</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="/pl/contact">Contact us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
           </ul>
         </div>
-        <p>Copyright &copy; Design &amp; Developed by <a href="http://www.themefisher.com">Themefisher</a>. All rights reserved.</p>
+        <p>&copy; 2017 PortalRu.TV. All rights reserved.</p>
       </div>
     </div>
   </div>
+
 </footer>
 
 
+<script id="_agile_min_js" async type="text/javascript" src="https://portal.agilecrm.com/stats/min/agile-min.js"> </script><script type="text/javascript" >var Agile_API = Agile_API || {}; Agile_API.on_after_load = function(){_agile.set_account('blsiq29hqbpr5c8vbiqk20pt7f', 'portal');_agile.track_page_view();_agile_execute_web_rules();};</script>
     </body>
 </html>

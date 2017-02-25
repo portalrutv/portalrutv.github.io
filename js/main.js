@@ -1,3 +1,7 @@
+/*global_agile*/
+/*global_agile_execute_web_rules*/
+
+
 $(document).ready(function(){
 
 

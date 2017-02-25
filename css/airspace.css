@@ -713,6 +713,7 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-right: 25px;
   font-size: 25px;
 }
+
 .google-map {
   position: relative;
 }
@@ -721,6 +722,7 @@ font header .navbar-default .navbar-nav li a:hover {
   height: 300px;
   background-color: #ff432e;
 }
+
 #contact-box {
   padding-top: 35px;
   padding-bottom: 58px;
